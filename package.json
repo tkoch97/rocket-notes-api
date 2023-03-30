@@ -1,0 +1,15 @@
+{
+  "name": "node_applycation",
+  "version": "1.0.0",
+  "description": "API desenvolvida na trilha Explorer da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Thiago Koch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
