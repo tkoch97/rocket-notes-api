@@ -9,4 +9,12 @@ app.get("/message/:id/:user", (request, response) => { //usamos o get como forma
   response.send(`Id da mensagem é: ${id}. Para o usuário: ${user}`) // o response.send pode ser entendido como "a resposta envia: olá mundo".
 });
 
+app.get('/user', (req, res) => {
+  const {page, limit} = req.query;
+  res.send(`
+    Monsta a página: ${page}.\n
+    Seu limite é: ${limit}.
+  `)
+})
+
 app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`));
