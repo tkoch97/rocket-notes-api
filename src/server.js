@@ -1,6 +1,6 @@
 require("express-async-errors");
 const express = require('express');
-
+const database = require('./database/sqlite')
 const AppError = require("./utils/AppError")
 const routes = require("./routes");
 
@@ -25,6 +25,8 @@ app.use((error, request, response, next) => {
     message: "Internal server Error"
   })
 })
+
+database();
 
 const PORT = 3000;
 
