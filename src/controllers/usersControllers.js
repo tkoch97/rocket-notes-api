@@ -66,7 +66,7 @@ class UsersControllers {
       user.password = await hash(password, 8);
     }
 
-    const updateUser = await database.run(`
+    await database.run(`
     UPDATE users SET
     name = ?,
     email = ?,
