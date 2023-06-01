@@ -30,7 +30,7 @@ class NotesControllers {
     
     await knex("tags").insert(tagsInsert);
 
-    response.json();
+    response.json("Nota criada com sucesso!");
   }
 
   async show(request, response) {
@@ -45,6 +45,25 @@ class NotesControllers {
       tags,
       links
     });
+  }
+
+  async delete(request, response) {
+    const { id } = request.params;
+
+    await knex("notes").where({ id }).delete();
+
+    return response.json(`Nota deletada com sucesso!`)
+  }
+
+  async index(request, response) {
+    const { user_id, title } = request.query;
+    
+    const notes = await knex("notes")
+    .where({ user_id })
+    .whereLike("title", `%${title}%`)
+    .orderBy("title");
+
+    return response.json(notes);
   }
 
 }
