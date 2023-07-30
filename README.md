@@ -1,7 +1,9 @@
-# Rocket Notes project 📓
-<img src="https://blog.geekhunter.com.br/wp-content/uploads/2021/02/1_mp91A9RzagntGGjBnwu4Yw.png">
+# Rocket Notes project - Back-end 📓⚙
+![preview](./public/github/preview.png)
 
 ## Under development ⏳
+
+The project consists of an application where the user can create notes and save them in his account, allowing searches by title. I worked with CRUD, authentication token and password encryption.
 
 ## 🔧 Tecnologies
 
@@ -11,6 +13,14 @@
  <img align="center" alt="tkoch-git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> Git
  <img align="center" alt="tkoch-git" height="30" width="60" src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_4eafe3715c8622c7c51c1ed85a65a262/beekeeper-studio.png" /> Beekeeper
  <img align="center" alt="tkoch-git" height="30" width="30" src="https://knexjs.org/knex-logo.png" /> Knex.js
+
+
+## 🛅 Dependencies
+ ![Alt text](image.png)
+
+## 🎨 Front-end
+
+[🔗 Front-end - repository](https://github.com/tkoch97/rocket-notes-front)
 
 ## 📃 Docs
 
