@@ -18,6 +18,9 @@ The project consists of an application where the user can create notes and save 
 ## 🛅 Dependencies
  ![Alt text](image.png)
 
+enter your environments settings in ".env.example" for run this api in your machine.
+![Alt text](image-1.png)
+
 ## 🎨 Front-end
 
 [🔗 Front-end - repository](https://github.com/tkoch97/rocket-notes-front)
