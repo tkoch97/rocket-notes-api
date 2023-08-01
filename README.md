@@ -16,7 +16,7 @@ The project consists of an application where the user can create notes and save 
 
 
 ## 🛅 Dependencies
- ![Alt text](image.png)
+ ![Alt text](image-2.png)
 
 enter your environments settings in ".env.example" for run this api in your machine.
 ![Alt text](image-1.png)
