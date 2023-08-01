@@ -13,13 +13,17 @@ The project consists of an application where the user can create notes and save 
  <img align="center" alt="tkoch-git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> Git
  <img align="center" alt="tkoch-git" height="30" width="60" src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_4eafe3715c8622c7c51c1ed85a65a262/beekeeper-studio.png" /> Beekeeper
  <img align="center" alt="tkoch-git" height="30" width="30" src="https://knexjs.org/knex-logo.png" /> Knex.js
+ <img align="center" alt="tkoch-git" height="30" width="30" src="https://www.svgrepo.com/show/353930/jest.svg" /> Jest
 
 
 ## 🛅 Dependencies
- ![Alt text](image-2.png)
+ ![preview](./public/github/image-2.png)
 
 enter your environments settings in ".env.example" for run this api in your machine.
-![Alt text](image-1.png)
+
+</p>
+
+![preview](./public/github/image-1.png)
 
 ## 🎨 Front-end
 
